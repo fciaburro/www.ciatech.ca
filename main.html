@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title >CIATECH MAIN PAGE</title>
+
+<!-- JAVASCRIPT HERE -->
+
+
+<!-- // When the user scrolls down 50px from the top of the document, resize the header's font size -->
+
+		<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+			document.getElementById("header").style.fontSize = "8px";
+			document.getElementById("header").style.backgroundColor = "white";
+		  } else {
+			document.getElementById("header").style.fontSize = "15px";
+			document.getElementById("header").style.backgroundColor = "transparent";
+		  }
+		}
+		</script>
+
+</head>
+<body  id="main">
+
+<!-- HEADER -->
+
+<header >
+
+<div id="header">
+	<table class="center" width="50%" padding:20px>
+	  <tr>
+		<th><img src="ressources/logo2.png" alt="logo.png" width="350"></th>
+		<th><h2><a href="#main">INTRODUCTION</a></h2></th>
+		<th><h2><a href="#projet">PORFOLIO & PROJETS</a></h2></th>
+		<th><h2><a href="#equipe">ÉQUIPE</a></h2></th>	
+		<th><h2><a href="photo.html">PHOTOS</a></h2></th>
+		<th><h2><a href="contact.html">CONTACTEZ NOUS</a></h2></th>
+		
+		<th>
+		<a style="font-size:40px" href="https://www.linkedin.com/in/fciaburro/" class="fa fa-linkedin-square"></a>
+		</th>
+		
+	  </tr>
+	</table>
+</div>
+
+</header>
+
+<!------------------->
+
+
+<!-- INTRODCUTION -->
+
+<h1> CIATECH CONSULTING pour vos projets R&D </h1>
+<h3>Le groupe Ciatech est la pour propulser votre entreprise technologique vers des nouveaux records
+</h3>
+
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+  <source src="ressources/tranfert_banner.mp4" type="video/mp4">
+
+  </video>
+ <!-- <h1>Video Background</h1> -->
+</div>
+
+
+
+<h3>
+<table class="center" width="15%">
+	<tr>
+		<td>
+			<div class="container">
+			<img src="ressources/transfert3.jpg" style="width:400px;">
+			<div class="centered">AUTOMATISATION & DESIGN INDUSTRIEL</div>
+			</div>		
+		</td>
+		<td>
+			<div class="container">
+			<img src="ressources/honeycomb_highres4.gif" style="width:400px;">
+			<div class="centered">ANALYSE & SIMULATION</div>
+			</div>
+		</td>
+		<td>
+			<div class="container">
+			<img src="ressources/pieces1.jpg" style="width:400px;">
+			<div class="centered">DESIGN MECANIQUE & ELECTRIQUE</div>
+			</div>
+		</td>
+	</tr>
+  
+	<tr>
+		<td><p></p></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+  
+</table>
+</h3>
+
+
+
+
+<!-- PROJETS -->
+
+<h1 id="projet">Porfolio & projets</h1>
+<h3>Avant gout de ce que CIATECH a accompli a travers les annees</h3>
+
+<h3>
+<table class="center">
+  <tr>
+    <td> AUTOMATISATION ET DESIGN INDUSTRIEL  </td>
+	<td> <img src="ressources/feeder1.jpg" width="400" /> </td>
+	<td> <img src="ressources/feeder2.jpg" width="400" />  </td>
+	<td> <img src="ressources/feeder3.jpg" width="400" />  </td>
+		<!--	
+		<video height="900" autoplay="autoplay" autoplay muted loop>
+		<source src="IMG_1228.MOV Render 1.mp4" type="video/mp4">
+		</video>
+		-->
+
+  </tr>
+  <tr>
+    <td> ANALYSE & SIMULATION <br /> Crashworthiness analysis of a honeycomb impact attenuator - 2020 </td>
+    
+	<td><img src="ressources/honeycomb_highres4.gif" width="400" /></td>
+	<td><img src="ressources/honeycomb_highres3.gif" width="400" /></td>
+	
+
+  </tr>
+  
+	<tr>
+	<td> DESGIN DE PIECES / MECHANISME / ASSEMBLAGE DE TOUT GENRE </td>
+	<td>
+
+	</td>
+
+	</tr>
+  
+  
+  <tr>
+
+    <td>
+	Experience avec :
+
+	</td>
+    <td>Solidworks, Ansys, LS-DYNA, CX-Programmer, Sysmac Studio, Matlab</td>
+  </tr>
+</table>
+</h3>
+
+<!-- EQUIPE -->
+
+
+
+<h1 id="equipe">L'Équipe CIATECH</h1>
+
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+  <source src="IMG_9509.MOV" type="video/mov">
+
+  </video>
+ <!-- <h1>Video Background</h1> -->
+</div>
+
+<h3>
+<table class="center" width="75%">
+  <tr>
+    <td><p>Frederic Ciaburro, CPI, M.Ing, Fondateur, B.Ing, AKA le C.H.I.E.F. <br />
+		   Ingenieur depuis 2023, se lance dans la consultation pour realiser ces ambitions de devenir le plus grand ingenieur sur la planete mars. Attention a ces yeux de tueurs, il chasse la chatte depuis 23 ans.</p>
+	</td>
+		
+	<td><img src="ressources/fred.jpg" alt="logo.jpg" width="200"> </td>
+	<td>
+		<table>
+		<tr><img src="ressources/fred-cv.png" alt="logo.jpg" width="600"> </tr>
+				
+		
+		<tr><button class="btn" id="btn" ><i class="fa fa-download"></i> 
+		
+		<a href="CIABURRO_2023.pdf" download="proposed_file_name">Mon CV</a>
+		
+		</button> 
+		</tr>
+		</table>
+	</td>
+	
+  </tr>
+
+  
+  <tr>
+    <td><p> Une equipe d'electromechaniciens et electriciens certifiés est à votre service pour vos besoin en maintenance </p><br />
+		   
+		
+	<td><img src="ressources/team_mecano.png" alt="logo.jpg" width="500"></td>
+  </tr>  
+  
+  
+</table>
+</h3>
+
+
+
+
+
+
+
+<h3>
+<table class="center" width="75%">
+  <tr>
+	<td>
+	<img src="ressources/logo_small.png" alt="logo.jpg" width="200">
+	</td>
+    <td><h5>
+	CIATECH CONSULTING, 2023 <br /> E.frederic.ciaburro@gmail.com <br />    
+	T.514 791 9616 <br /> 2250-1 Augier <br /> Montreal, QC H2G 1E9
+	</h5>
+	
+	</td>
+	<td>
+	<img id="carte" src="ressources/carte.png" alt="logo.png" width="500">
+	Prenez moi!!
+	
+	<button onclick="window.print()">Prenez moi!!</button>
+	
+	</td>
+	<td>All rights reserved, site crée à l'interne</td>
+
+  </tr>
+</table>
+</h3>
+
+
+
+
+</body>
+</html>
