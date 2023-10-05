@@ -17,25 +17,26 @@
 		function scrollFunction() {
 		  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
 			document.getElementById("header").style.fontSize = "8px";
-			document.getElementById("header").style.backgroundColor = "white";
+			document.getElementById("header").style.backgroundColor = "#222222";
 		  } else {
-			document.getElementById("header").style.fontSize = "15px";
+			document.getElementById("header").style.fontSize = "12px";
 			document.getElementById("header").style.backgroundColor = "transparent";
 		  }
 		}
 		</script>
 
 </head>
-<body  id="main">
 
+
+<body  id="main">
 <!-- HEADER -->
 
 <header >
 
 <div id="header">
-	<table class="center" width="50%" padding:20px>
+	<table class="center" width=100 >
 	  <tr>
-		<th><img src="ressources/logo2.png" alt="logo.png" width="350"></th>
+		<th><img src="ressources/logo2.png" alt="logo.png" width="250"></th>
 		<th><h2><a href="#main">INTRODUCTION</a></h2></th>
 		<th><h2><a href="#projet">PORFOLIO & PROJETS</a></h2></th>
 		<th><h2><a href="#equipe">ÉQUIPE</a></h2></th>	
@@ -64,20 +65,19 @@
 <div class="ParallaxVideo">
   <video autoplay muted loop>
   <source src="ressources/tranfert_banner.mp4" type="video/mp4">
-
   </video>
  <!-- <h1>Video Background</h1> -->
 </div>
 
 
 
-<h3>
-<table class="center" width="15%">
+
+<table class="tablebody1" class="center" width="100%">
 	<tr>
 		<td>
 			<div class="container">
 			<img src="ressources/transfert3.jpg" style="width:400px;">
-			<div class="centered">AUTOMATISATION & DESIGN INDUSTRIEL</div>
+			<div class="centered"> <h6>AUTOMATISATION & DESIGN INDUSTRIEL</h6></div>
 			</div>		
 		</td>
 		<td>
@@ -89,7 +89,7 @@
 		<td>
 			<div class="container">
 			<img src="ressources/pieces1.jpg" style="width:400px;">
-			<div class="centered">DESIGN MECANIQUE & ELECTRIQUE</div>
+			<div class="centered"><h6>DESIGN MECANIQUE & ELECTRIQUE</h6></div>
 			</div>
 		</td>
 	</tr>
@@ -102,7 +102,7 @@
 
   
 </table>
-</h3>
+
 
 
 
@@ -161,16 +161,8 @@
 
 <h1 id="equipe">L'Équipe CIATECH</h1>
 
-<div class="ParallaxVideo">
-  <video autoplay muted loop>
-  <source src="IMG_9509.MOV" type="video/mov">
 
-  </video>
- <!-- <h1>Video Background</h1> -->
-</div>
-
-<h3>
-<table class="center" width="75%">
+<table class="tablebody1" class="center" width="100%">
   <tr>
     <td><p>Frederic Ciaburro, CPI, M.Ing, Fondateur, B.Ing, AKA le C.H.I.E.F. <br />
 		   Ingenieur depuis 2023, se lance dans la consultation pour realiser ces ambitions de devenir le plus grand ingenieur sur la planete mars. Attention a ces yeux de tueurs, il chasse la chatte depuis 23 ans.</p>
@@ -184,7 +176,7 @@
 		
 		<tr><button class="btn" id="btn" ><i class="fa fa-download"></i> 
 		
-		<a href="CIABURRO_2023.pdf" download="proposed_file_name">Mon CV</a>
+		<a href="CIABURRO_2023.pdf" download="CV_CIABURRO_2023">Mon CV</a>
 		
 		</button> 
 		</tr>
@@ -203,16 +195,13 @@
   
   
 </table>
-</h3>
 
 
 
 
+<!-- FOOTER -->
 
-
-
-<h3>
-<table class="center" width="75%">
+<table class="tablebody1" width="100%" >
   <tr>
 	<td>
 	<img src="ressources/logo_small.png" alt="logo.jpg" width="200">
@@ -224,18 +213,18 @@
 	
 	</td>
 	<td>
-	<img id="carte" src="ressources/carte.png" alt="logo.png" width="500">
+	<img id="carte" src="ressources/carte.png" alt="logo.png" width="300">
 	Prenez moi!!
 	
 	<button onclick="window.print()">Prenez moi!!</button>
 	
 	</td>
-	<td>All rights reserved, site crée à l'interne</td>
+	<td><h5>All rights reserved, site crée à l'interne</h5></td>
 
   </tr>
 </table>
-</h3>
 
+<!-------------------->
 
 
 
