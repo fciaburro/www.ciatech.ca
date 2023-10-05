@@ -203,8 +203,23 @@ content > div {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
 /* --------------------------- */
 
+
+.zoom img {
+    transition:transform 0.25s ease;
+}
+
+.zoom img:hover {
+    -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+}
 
 
 /* DOWNLOAD BUTTON STYLE*/
