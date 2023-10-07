@@ -372,12 +372,14 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background: url("../img/hero-bg.jpg") center center;
+  /*background: url("../img/hero-bg.jpg") center center;*/
   background-size: cover;
-  position: relative;
+  position: relative;  /* relative;*/
   margin-top: 70px;
   padding: 0;
 }
+
+
 
 #hero:before {
   content: "";
@@ -461,7 +463,7 @@ section {
 }
 
 .section-bg {
-  background-color: #8a8a8a;
+  background-color: #c5c5c5;
 }
 
 .section-title {
