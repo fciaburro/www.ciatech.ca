@@ -1377,6 +1377,11 @@ section {
   font-size: 14px;
 }
 
+#footer .footer-bcard img{
+  transform: rotate(10deg);
+
+}
+
 #footer .footer-top {
   background: #0c1817;
   border-bottom: 1px solid #18302c;

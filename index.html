@@ -18,6 +18,12 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+
+  <!-- edit fred BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link href="OLD_html/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -250,31 +256,46 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Notre equipe est specialise dans les domaines suivants : </p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
+              <img src="ressources/transfert2.jpg" class="img-fluid card">
+
+              <div class="card-img-overlay">
               <div class="icon"><i class="bi bi-gear"></i></div>
               <h4 class="title"><a href="">AUTOMATISATION & DESIGN INDUSTRIEL</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+
+            </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+             
             <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">ANALYSE & SIMULATION</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+              <img src="ressources/honeycomb_highres3.gif" class="img-fluid card">
+
+              <div class="card-img-overlay">
+              <div class="icon"><i class="bx bx-file "></i></div>
+              <h4 class="title card-title"><a href="">ANALYSE & SIMULATION</a></h4>
+              <p class="description card-text">test.. bg-img? card-img-overlay? cdn est fonctionnel? a voir</p>
+               </div>
+
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">DESIGN MÉCANIQUE & ÉLECTRIQUE</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+              <img src="ressources/pieces1.jpg" class="img-fluid card">
+
+              <div class="card-img-overlay">
+              <div class="icon"><i class="bx bx-wrench"></i></div>
+              <h4 class="title card-title"><a href="">DESIGN MÉCANIQUE & ÉLECTRIQUE</a></h4>
+              <p class="description card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+            </div>
             </div>
           </div>
 
@@ -385,7 +406,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
-          <p>Voici les projets que le groupe CIATECH a accompli au cours des dernieres annees</p>
+          <p>Voici les projets que le groupe CIATECH a accompli au cours des dernieres annees </br> to do : clean photo, recadre square parfait, deuxieme serie de photo lors du clic, description des projets, etc..</p>
         </div>
 
 
@@ -394,9 +415,9 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Automatisation / Design</li>
-              <li data-filter=".filter-card">Analyse / Simulation</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-auto">Automatisation / Design</li>
+              <li data-filter=".filter-sim">Analyse / Simulation</li>
+              <li data-filter=".filter-web">R&D</li>
             </ul>
           </div>
         </div>
@@ -404,7 +425,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-auto">
             <div class="portfolio-wrap">
               <img src="ressources/feeder1.jpg" class="img-fluid"> 
               
@@ -419,7 +440,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-auto">
             <div class="portfolio-wrap">
               <img src="ressources/feeder3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -433,9 +454,9 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sim">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="ressources/fanuc1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
@@ -447,9 +468,9 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-auto">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="ressources/transfert2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
@@ -461,23 +482,23 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sim">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="ressources/KC3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="ressources/KC3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sim">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="ressources/honeycomb2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
@@ -505,7 +526,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="ressources/transfert3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
@@ -519,7 +540,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="ressources/pieces3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -542,14 +563,14 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Équipe</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Ajouter dautres membres?? Dautres infos??? ajouter CV plus evident??</p>
         </div>
 
         <div class="row">
 
 
           <!-- MEMBER 1 -->
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="col-xl-3 col-lg-4 col-md-3 " data-aos="fade-up">
             <div class="member">
               <img src="ressources/fred.jpg" class="img-fluid" alt="">
               <div class="member-info">
@@ -558,17 +579,16 @@
                   <span>Chief Executive Officer</span>
                 </div>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/fciaburro/"><i class="bi bi-linkedin"></i></a>
+                  <a href="CIABURRO_2023.pdf"><i class="bi bi-file-earmark-pdf"></i></a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+          <div class="row">
 
-
-          <!-- MEMBER 2 -->
+          <!-- MEMBER 2  -->
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
@@ -585,7 +605,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
 
           <!-- MEMBER 3 -->
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -776,7 +796,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-5 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="footer-info">
               <h3>CIATECH</h3>
               <p>
@@ -805,6 +825,16 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
+
+
+          <div class="col-lg-4 col-md-6 footer-bcard">
+            <h1 class="center"> Prenez moi </h1>
+            
+            <a href="ressources/carte.png" download="card"><img src="ressources/carte.png" class="img-fluid"  alt=""></a>
+
+          </div>
+
+
 
           <!--
           <div class="col-lg-3 col-md-6 footer-links">
@@ -858,6 +888,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
