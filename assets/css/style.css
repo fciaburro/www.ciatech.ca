@@ -380,7 +380,6 @@ h6 {
 }
 
 
-
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
@@ -393,6 +392,7 @@ h6 {
 
 #hero .container {
   z-index: 2;
+  position: absolute;    /* added for video hero*/
 }
 
 #hero h1 {
@@ -463,7 +463,7 @@ section {
 }
 
 .section-bg {
-  background-color: #c5c5c5;
+  background-color: #eeeeee;
 }
 
 .section-title {
