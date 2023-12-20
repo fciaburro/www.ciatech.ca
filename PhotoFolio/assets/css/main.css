@@ -1218,7 +1218,7 @@ h6 {
   font-size: 18px;
 }
 
-.hero .btn-get-started {
+.btn-get-started {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 14px;
@@ -1232,8 +1232,8 @@ h6 {
   background: var(--color-primary);
 }
 
-.hero .btn-get-started:hover {
-  background: #2cbc85;
+.btn-get-started:hover {
+  background: #eab712;
 }
 
 @media (max-width: 768px) {
