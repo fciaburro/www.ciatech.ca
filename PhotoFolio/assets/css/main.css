@@ -722,14 +722,14 @@ h6 {
 }
 
 .gallery .gallery-item img {
-  transition: 0.3s;
+  transition: 0.15s;
 }
 
 .gallery .gallery-links {
   position: absolute;
   inset: 0;
   opacity: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.15s;
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
 }
@@ -738,7 +738,7 @@ h6 {
 .gallery .gallery-links .details-link {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s;
+  transition: 0.15s;
   line-height: 1.2;
   margin: 30px 8px 0 8px;
 }
