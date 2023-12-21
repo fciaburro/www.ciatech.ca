@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: rgb(211, 146, 17);
+  --color-primary: rgb(11, 105, 75);
   --color-secondary: #161718;
 }
 
@@ -1233,7 +1233,7 @@ h6 {
 }
 
 .btn-get-started:hover {
-  background: #eab712;
+  background: #035b42;
 }
 
 @media (max-width: 768px) {
