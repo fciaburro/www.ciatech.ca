@@ -713,12 +713,19 @@ h6 {
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+  
 }
 
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
+  
+  ;
 }
 
 .gallery .gallery-item img {
@@ -732,6 +739,7 @@ h6 {
   transition: all ease-in-out 0.15s;
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  padding: 1px;
 }
 
 .gallery .gallery-links .preview-link,
@@ -755,6 +763,7 @@ h6 {
 
 .gallery .gallery-item:hover .gallery-links {
   opacity: 1;
+ 
 }
 
 .gallery .gallery-item:hover .preview-link,
@@ -763,7 +772,7 @@ h6 {
 }
 
 .gallery .gallery-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .glightbox-clean .gslide-description {
@@ -773,6 +782,7 @@ h6 {
 .glightbox-clean .gslide-title {
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
+  
 }
 
 /*--------------------------------------------------------------
@@ -780,6 +790,8 @@ h6 {
 --------------------------------------------------------------*/
 .gallery-single .portfolio-details-slider img {
   width: 100%;
+  
+  
 }
 
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
