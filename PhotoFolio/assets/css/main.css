@@ -20,8 +20,10 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: rgb(11, 105, 75);
+  --color-primary: rgb(85, 181, 98);
+  --color-primaryhover: rgb(106, 85, 138);
   --color-secondary: #161718;
+  --color-dark:  rgb(38, 29, 49); /*rgb(53, 101, 59); /*rgb(11, 105, 75); */
 }
 
 /* Smooth scroll behavior */
@@ -44,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: var(--color-primaryhover); /*#32cf93;*/
   text-decoration: none;
 }
 
@@ -98,7 +100,7 @@ h6 {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  padding: 120px 0 60px 0;
+  padding: 30px 0 60px 0;
   min-height: 30vh;
   position: relative;
 }
@@ -135,7 +137,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: var(--color-primaryhover);  /* #2cbc85; */
 }
 
 /*--------------------------------------------------------------
@@ -162,7 +164,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: var(--color-primaryhover); /* rgba(39, 167, 118, 0.8); */
   color: #fff;
 }
 
@@ -176,7 +178,7 @@ h6 {
 # Preloader
 --------------------------------------------------------------*/
 
-/*---
+/*--
 #preloader {
   display: flex;
   position: fixed;
@@ -204,7 +206,7 @@ h6 {
 }
 
 #preloader .line {
-  position: relative;
+  position: relative;wedge60 deg
   overflow: hidden;
   margin: auto;
   width: 1px;
@@ -287,9 +289,9 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
+  transition: all 1s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #000;
 }
 
@@ -336,7 +338,7 @@ h6 {
   display: inline-block;
   line-height: 0px;
   transition: 0.1s;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .header .header-social-links a:hover {
@@ -590,6 +592,24 @@ h6 {
   font-weight: 700;
   font-size: 24px;
   color: var(--color-primary);
+}
+
+.about span {
+  position: relative;
+  z-index: 1;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.about span:before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-dark);
+  z-index: -1;
 }
 
 .about .content ul {
@@ -886,7 +906,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: var(--color-primaryhover); /* #2cbc85; */
 }
 
 .gallery-single .portfolio-description h2 {
@@ -932,7 +952,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: var(--color-primaryhover); /* #5bd9a9; */
   font-size: 26px;
   line-height: 0;
 }
@@ -1173,7 +1193,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: var(--color-primaryhover); /* rgba(39, 167, 118, 0.8); */
 }
 
 @keyframes animate-loading {
@@ -1204,7 +1224,7 @@ h6 {
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 110%;
+  min-height: 100%;
   z-index: -1;
 }
 
@@ -1255,7 +1275,7 @@ h6 {
 }
 
 .btn-get-started:hover {
-  background: #035b42;
+  background: var(--color-dark); /* #035b42; */
 }
 
 @media (max-width: 768px) {
