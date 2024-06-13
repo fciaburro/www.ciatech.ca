@@ -24,6 +24,7 @@
   --color-primaryhover: rgb(106, 85, 138);
   --color-secondary: #161718;
   --color-dark:  rgb(38, 29, 49); /*rgb(53, 101, 59); /*rgb(11, 105, 75); */
+  --color-background :  rgb(38, 29, 49);
 }
 
 /* Smooth scroll behavior */
@@ -733,10 +734,12 @@ h6 {
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  
+  margin-bottom: 60px;
+  margin-left: 0px ; /* 40px; */
+  margin-right:  0px ; /* 40px; */
+  background: rgb(0, 0, 0);
+  padding: 60px;
+
   
 }
 
@@ -745,7 +748,6 @@ h6 {
   overflow: hidden;
   border-radius: 5px;
   
-  ;
 }
 
 .gallery .gallery-item img {
